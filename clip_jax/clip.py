@@ -109,7 +109,7 @@ def convert_params(torch_state, jax_params):
         pytorch_name = tensor_path + "." + tensor_name if tensor_path else tensor_name
         print(f"name {name}")
         print(f"pytorch_name {pytorch_name}")
-        print(f"torch_state {torch_state}")
+        #print(f"torch_state {torch_state}")
 
         if "conv" in name:
             pytorch_path = tensor_path + "." + tensor_name
